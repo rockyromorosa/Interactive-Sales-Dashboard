@@ -29,7 +29,6 @@ It features live data updates, light/dark themes, and smooth UI transitions — 
 ## 🚀 Live Demo  
 👉 [View the Live Project](https://rockyromorosa.github.io/Interactive-Sales-Dashboard/)  
 
-*(Replace with your actual GitHub Pages URL once deployed.)*
 
 ---
 
@@ -48,5 +47,6 @@ It features live data updates, light/dark themes, and smooth UI transitions — 
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/interactive-dashboard-ui.git](https://github.com/rockyromorosa/Interactive-Sales-Dashboard
+
 
 
