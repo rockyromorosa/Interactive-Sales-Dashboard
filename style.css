@@ -1,0 +1,227 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* Smooth transition for theme changes */
+body, .sidebar, .card, .chart-section, .modal-content, select, input {
+  transition: background-color 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.page-section {
+  display: none;
+}
+
+.page-section.active {
+  display: block;
+}
+
+
+.page-section {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.page-section.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar li.active, .sidebar li:hover {
+  background: #34495e;
+  border-radius: 5px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 18px;
+}
+
+.chart-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* Add Record Button */
+.btn-add {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.btn-add:hover {
+  background: #2980b9;
+}
+
+/* Modal Styles */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1000; 
+  left: 0; top: 0; 
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background: white;
+  margin: 10% auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.close {
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.btn-save {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-save:hover {
+  background: #219150;
+}
+
+
+/* Dark Mode Base */
+body.dark-mode {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .sidebar {
+  background: #111;
+}
+
+body.dark-mode .sidebar li.active,
+body.dark-mode .sidebar li:hover {
+  background: #222;
+}
+
+body.dark-mode .card,
+body.dark-mode .chart-section {
+  background: #2a2a2a;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+
+body.dark-mode select,
+body.dark-mode input {
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+body.dark-mode .modal-content {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+/* Theme Toggle Button */
+.btn-theme {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: #444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-theme:hover {
+  background: #555;
+}
+
+.btn-theme span {
+  margin-left: 6px;
+  transition: opacity 0.3s ease;
+}
+
+#reportsPage .chart-section {
+  margin-top: 20px;
+}
