@@ -1,7 +1,5 @@
 # 🌐 Interactive Dashboard UI
 
-![Screenshot](screenshot.png)
-
 A responsive and interactive **Dashboard Web App** built with **HTML**, **CSS**, and **JavaScript** (using [Chart.js](https://www.chartjs.org/)).  
 It features live data updates, light/dark themes, and smooth UI transitions — perfect for showcasing front-end development skills.
 
@@ -29,7 +27,7 @@ It features live data updates, light/dark themes, and smooth UI transitions — 
 ---
 
 ## 🚀 Live Demo  
-👉 [View the Live Project](https://yourusername.github.io/interactive-dashboard-ui/)  
+👉 [View the Live Project](https://yourusername.github.io/rockyromorosa/Interactive-Sales-Dashboard/)  
 
 *(Replace with your actual GitHub Pages URL once deployed.)*
 
@@ -49,4 +47,5 @@ It features live data updates, light/dark themes, and smooth UI transitions — 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/interactive-dashboard-ui.git
+   git clone https://github.com/yourusername/interactive-dashboard-ui.git](https://github.com/rockyromorosa/Interactive-Sales-Dashboard
+
